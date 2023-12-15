@@ -1,0 +1,48 @@
+.content {
+    display: flex;
+    font-family: 'Prompt', sans-serif;
+    font-size: 28px;
+    background: rgba(224, 220, 208, 0.60);
+    height: 100%;
+    width: 100%;
+}
+
+.biografie {
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.person {
+    margin-bottom: 30px;
+}
+
+.fliesstext {
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 70px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    word-wrap: break-word;
+    display: flex;
+    margin-bottom: 70px;
+}
+.yellow{
+    color: #B1A12D;
+}
+
+p{
+    margin-bottom: 50px;
+}
+
+.video{
+    width: 100vw;
+    height: 800px;
+    background: #DFD37D;
+    align-content: center;
+    text-align: center;
+}
