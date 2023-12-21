@@ -1,0 +1,67 @@
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(224, 220, 208, 0.8);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Righteous', serif;
+    margin-left: 20px;
+   
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links {
+    font-family: 'Prompt', sans-serif;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 60px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: font-weight 0.3s;
+}
+
+.nav-links a:hover {
+    font-weight: bolder;
+}
+
+.wg-suchen-btn {
+    background-color: rgb(246, 112, 114);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.wg-suchen-btn:hover {
+    background-color: rgb(153, 198, 184);
+}
+
+/* Navigation ENDE */
+/* Navigation ENDE */

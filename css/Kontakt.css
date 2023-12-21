@@ -1,10 +1,14 @@
+body{
+    background: rgba(224, 220, 208, 0.60);
+}
+
 .contact {
     width: 100vw;
     height: 100vh;
-    background: rgba(224, 220, 208, 0.60);
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 150px;
 }
 
 .title {
@@ -24,6 +28,24 @@
     font-weight: 400;
     word-wrap: break-word;
 }
+#name {
+    width: 780px;
+    height: 80px;
+    background: #E0DCD0;
+    border: none;
+    margin-bottom: 70px;
+
+}
+
+#email {
+    width: 780px;
+    height: 80px;
+    background: #E0DCD0;
+    border: none;
+    margin-bottom: 70px;
+
+}
+
 
 .email {
     color: rgba(153, 198, 184, 0.80);
@@ -41,14 +63,7 @@
     word-wrap: break-word;
 }
 
-input {
-    width: 780px;
-    height: 80px;
-    background: #E0DCD0;
-    border: none;
-    margin-bottom: 70px;
 
-}
 
 .sendButton {
     width: 100px;
@@ -60,6 +75,7 @@ input {
     font-size: 20px;
     border: none;
     margin-top: 30px;
+    margin-bottom: 250px;
 }
 
 textarea {
@@ -69,3 +85,10 @@ textarea {
     border: none;
 
 }
+
+.zusatzabstand {
+    height: 100px; /* Höhe des zusätzlichen Abstands */
+    
+}
+
+
