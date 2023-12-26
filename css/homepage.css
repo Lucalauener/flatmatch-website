@@ -1,0 +1,63 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation */
+
+
+/* Navigation ENDE */
+
+
+body {
+    background: rgba(224, 220, 208, 0.60);
+}
+
+main{
+    font-family: 'Prompt', sans-serif;
+    font-size: 28px;
+    margin: 0px;
+    margin-right: 0px;
+    
+}
+
+/* part1 */
+
+.Bild1 {
+    position: relative;
+}
+
+.Bild1 .rechteck {
+    width: 1135px;
+    height: auto; /* Auto Höhe, um sich dem Inhalt anzupassen */
+    background: rgba(224, 220, 208, 0.80);
+    position: absolute;
+    left: 327px;
+    top: 713px;
+    padding: 15px 82px 0 67px; /* Top Right Bottom Left */
+}
+
+.DeinSchluessel {
+    color: #F67072;
+    font-size: 70px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 0; /* Kein zusätzlicher Abstand */
+}
+
+.WirBringenMenschen {
+    color: black;
+    font-size: 26px;
+    width: 719px;
+    height: 50px;
+    flex-shrink: 0;
+    font-family: 'SeoulNamsan';
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 10px; /* Etwas Abstand zwischen den Texten */
+    margin-bottom: 15px; /* Abstand unten */
+}
+
+
