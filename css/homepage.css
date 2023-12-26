@@ -26,38 +26,119 @@ main{
 
 .Bild1 {
     position: relative;
+    max-height: 1024px; /* Maximale Höhe des Bildes */
+    max-width: 100%; /* Maximale Breite auf 100% des übergeordneten Elements setzen */
+    overflow: hidden; /* Schneidet überstehende Inhalte ab */
+}
+
+.Bild1 img {
+    max-width: 100%; /* Stellt sicher, dass das Bild nicht breiter als sein Container ist */
+    height: auto; /* Erhält das Seitenverhältnis des Bildes */
 }
 
 .Bild1 .rechteck {
-    width: 1135px;
-    height: auto; /* Auto Höhe, um sich dem Inhalt anzupassen */
+    width: calc(100% - 327px - 40px); /* Anpassung der Breite an den Container */
+    height: auto; /* Höhe abhängig vom Inhalt und zusätzlichem Abstand */
     background: rgba(224, 220, 208, 0.80);
     position: absolute;
     left: 327px;
     top: 713px;
-    padding: 15px 82px 0 67px; /* Top Right Bottom Left */
+    padding: 15px 40px 50px 67px; /* Top Right Bottom Left */
+    bottom: 35px; /* 35px Abstand vom unteren Rand */
 }
+
+
+
 
 .DeinSchluessel {
     color: #F67072;
     font-size: 70px;
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Righteous';
     font-weight: 400;
     word-wrap: break-word;
     margin: 0; /* Kein zusätzlicher Abstand */
+    width: 971px;
+    height: 174px;
+    flex-shrink: 0;
 }
 
 .WirBringenMenschen {
     color: black;
     font-size: 26px;
-    width: 719px;
-    height: 50px;
-    flex-shrink: 0;
-    font-family: 'SeoulNamsan';
+    font-family: SeoulNamsan;
     font-weight: 400;
     word-wrap: break-word;
-    margin-top: 10px; /* Etwas Abstand zwischen den Texten */
+    margin-top: 5px; /* Etwas Abstand zwischen den Texten */
     margin-bottom: 15px; /* Abstand unten */
+    width: 708.181px;
+    height: 65px;
+    flex-shrink: 0;
 }
+
+
+.part2 .rechteck2 {
+    position: relative;
+    height: 897px; /* Setzen der Höhe des Containers */
+    /* Weitere Stile für rechteck2 */
+}
+
+.Heading1 {
+    position: absolute;
+    left: 50px;
+    top: 228px;
+
+}
+
+.Heading1 .Dream, .Heading1 .WG, .Heading1 .Finden {
+    color: black;
+    font-size: 70px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Heading1 .WG {
+    color: #98C6B9; /* Spezifische Farbe für 'WG' */
+}
+
+/* Stile für Description1, Rechteck-button1 und rechtecktpink, falls benötigt */
+
+
+.Description1 {
+    position: absolute;
+    right: 657px;
+    left: 66px;
+    top: 380px;
+    /* Die Höhe passt sich dem Inhalt an, kein 'bottom' definiert */
+    /* Weitere Stile für Description1 */
+}
+
+/* Stile für Rechteck-button1 und rechtecktpink, falls benötigt */
+
+
+.Rechteck-button1 {
+    position: absolute;
+    width: 507px;
+    height: 119.604px;
+    left: 862px; 
+    top: 96px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #E0DCD0; /* Hintergrundfarbe von Button1 */
+    box-shadow: 9px 6.86px 0px 0 rgba(246, 112, 114, 0.50); /* Schatten mit scharfen Kanten */
+}
+
+.Rechteck-button2 {
+    position: absolute;
+    width: 507px;
+    height: 119.604px;
+    left: 862px; 
+    top: 290px; /* Position angepasst, um Button2 unter Button1 zu platzieren */
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #E0DCD0; /* Hintergrundfarbe von Button1 */
+    box-shadow: 9px 6.86px 0px 0 rgba(153, 198, 184, 1); /* Gleicher Schatten wie bei Button1 */
+}
+
 
 
