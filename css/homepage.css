@@ -324,6 +324,44 @@ main{
     line-height: 91.3px; /* Zentriert den Text vertikal */
     word-wrap: break-word; /* Sorgt dafür, dass der Text bei Bedarf umbricht */
 }
+.part4 {
+    display: block;
+    /* Grundlegende Stile für part4, falls benötigt */
+}
+
+.rechteck4 {
+    position: relative;
+    width: 1445px; /* Stellen Sie sicher, dass dies breit genug ist */
+    height: 1126px;
+    flex-shrink: 0;
+    background: rgba(224, 220, 208, 0.6);
+}
+
+
+.Heading3 {
+    position: absolute;
+    left: 50px;
+    top: 228px;
+
+}
+
+.Heading3 .Deine, .Heading3 .WG-Experten, .Heading3 .Seit-2023 {
+    color: black;
+    font-size: 70px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Heading3 .WG-Experten {
+    color: #98C6B9; /* Spezifische Farbe für 'WG' */
+}
+
+
+
+
+
+
 
 
 
