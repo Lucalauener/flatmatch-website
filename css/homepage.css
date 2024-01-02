@@ -133,12 +133,118 @@ main{
     width: 507px;
     height: 119.604px;
     left: 862px; 
-    top: 290px; /* Position angepasst, um Button2 unter Button1 zu platzieren */
+    top: 290px; 
     flex-shrink: 0;
     border: 1px solid #000;
-    background: #E0DCD0; /* Hintergrundfarbe von Button1 */
-    box-shadow: 9px 6.86px 0px 0 rgba(153, 198, 184, 1); /* Gleicher Schatten wie bei Button1 */
+    background: #E0DCD0; /* Hintergrundfarbe von Button2 */
+    box-shadow: 9px 6.86px 0px 0 rgba(153, 198, 184, 1); 
 }
+
+.Rechteck-button3 {
+    position: absolute;
+    width: 507px;
+    height: 119.604px;
+    left: 862px; 
+    top: 484px; 
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #E0DCD0; /* Hintergrundfarbe von Button3 */
+    box-shadow: 9px 6.86px 0px 0 #E0CB38; 
+}
+
+.Rechteck-button4 {
+    position: absolute;
+    width: 507px;
+    height: 119.604px;
+    left: 862px; 
+    top: 678px; 
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #E0DCD0; /* Hintergrundfarbe von Button4 */
+    box-shadow: 9px 6.86px 0px 0 rgba(246, 112, 114, 1); 
+    
+}
+
+.Rectangle2 {
+    position: absolute;
+    top: 50%; /* Zentrierung in der vertikalen Achse */
+    left: 20px; /* Abstand von links */
+    right: 427px; /* Abstand von rechts */
+    transform: translateY(-50%); /* Verschiebung um die eigene halbe Höhe nach oben */
+    height: auto; /* Automatische Höhenanpassung */
+    width: auto; /* Automatische Breitenanpassung */
+}
+
+.button-text1 {
+    position: absolute;
+    top: 50%;
+    left: 133px; /* Abstand von links */
+    right: 27px; /* Abstand von rechts */
+    transform: translateY(-50%); /* Vertikale Zentrierung */
+    text-align: left; /* Textausrichtung */
+
+    /* Typografie-Stile */
+    color: #000;
+    font-family: 'SeoulNamsan', sans-serif; /* Stellen Sie sicher, dass die Schriftart geladen ist */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-text2 {
+    position: absolute;
+    top: 50%;
+    left: 133px; /* Abstand von links */
+    right: 27px; /* Abstand von rechts */
+    transform: translateY(-50%); /* Vertikale Zentrierung */
+    text-align: left; /* Textausrichtung */
+
+    /* Typografie-Stile */
+    color: #000;
+    font-family: 'SeoulNamsan', sans-serif; /* Stellen Sie sicher, dass die Schriftart geladen ist */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button-text3 {
+    position: absolute;
+    top: 50%;
+    left: 133px; /* Abstand von links */
+    right: 27px; /* Abstand von rechts */
+    transform: translateY(-50%); /* Vertikale Zentrierung */
+    text-align: left; /* Textausrichtung */
+
+    /* Typografie-Stile */
+    color: #000;
+    font-family: 'SeoulNamsan', sans-serif; /* Stellen Sie sicher, dass die Schriftart geladen ist */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button-text4 {
+    position: absolute;
+    top: 50%;
+    left: 133px; /* Abstand von links */
+    right: 27px; /* Abstand von rechts */
+    transform: translateY(-50%); /* Vertikale Zentrierung */
+    text-align: left; /* Textausrichtung */
+
+    /* Typografie-Stile */
+    color: #000;
+    font-family: 'SeoulNamsan', sans-serif; /* Stellen Sie sicher, dass die Schriftart geladen ist */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
 
 
 
