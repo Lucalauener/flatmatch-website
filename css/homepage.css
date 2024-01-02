@@ -242,6 +242,96 @@ main{
 }
 
 
+.part3 {
+    display: block;
+    /* Grundlegende Stile für part3, falls benötigt */
+}
+
+.rechteck3 {
+    position: relative;
+    width: 1445px;
+    height: 1126px;
+    flex-shrink: 0;
+    background: #99C6B8;
+}
+
+.Deine, .Wohngemeinschaft, .deine-Interessen-dein-Zuhause {
+    position: absolute;
+    right: 122px; /* Abstand von rechts */
+    left: 602px;  /* Abstand von links */
+    font-family: 'Righteous', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Deine {
+    top: 50px; /* Abstand von oben für die erste Zeile */
+    color: #000;
+}
+
+.Wohngemeinschaft {
+    top: 130px; /* Abstand von oben für die zweite Zeile */
+    color: #B1A12D;
+}
+
+.deine-Interessen-dein-Zuhause {
+    top: 210px; /* Abstand von oben für die dritte und vierte Zeile */
+    color: #000;
+}
+
+.Description2 {
+    position: absolute;
+    top: 479.69px;    /* Abstand von oben */
+    bottom: 1928px;   /* Abstand von unten */
+    right: 225px;     /* Abstand von rechts */
+    left: 602px;      /* Abstand von links */
+    width: auto;      /* Automatische Breite basierend auf Position und Inhalt */
+    height: auto;     /* Automatische Höhe basierend auf Inhalt */
+    color: #000;
+    font-family: 'SeoulNamsan', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image3 {
+    position: absolute;
+    top: 205.65px;     /* Abstand von oben */
+    bottom: 136.91px;  /* Abstand von unten */
+    right: 996px;      /* Abstand von rechts */
+    left: 68px;        /* Abstand von links */
+    width: 381px;
+    height: 783.438px;
+    flex-shrink: 0;
+}
+.btn-los-gehts {
+    position: absolute;
+    left: 1004.5px; /* Abstand von links */
+    top: 993px; /* Abstand von oben */
+    width: 309px; /* Breite des Buttons */
+    height: 91.3px; /* Höhe des Buttons */
+    background-color: rgba(177, 161, 45, 1); /* Hintergrundfarbe */
+    color: black; /* Textfarbe */
+    font-size: 40px; /* Schriftgröße */
+    font-family: 'SeoulNamsan', sans-serif; /* Schriftart */
+    font-weight: 400; /* Schriftgewicht */
+    border: none; /* Entfernt den Standard-Rand von Buttons */
+    cursor: pointer; /* Zeigt einen Zeiger-Cursor an, um Klickbarkeit anzuzeigen */
+    text-align: center; /* Zentriert den Text im Button */
+    line-height: 91.3px; /* Zentriert den Text vertikal */
+    word-wrap: break-word; /* Sorgt dafür, dass der Text bei Bedarf umbricht */
+}
+
+
+
+
+
+
+
+
 
 
 
