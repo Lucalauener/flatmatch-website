@@ -385,24 +385,26 @@ main{
 
 .mehr-ueber-uns {
     position: absolute;
-    left: 50%; /* Zentriert horizontal */
-    top: 795px; /* Zentriert vertikal */
+    left: 50%;
+    top: 795px;
     transform: translate(-50%, calc(-50% + 169px));
-    width: 382px; /* Breite des Buttons */
-    height: 95.586px; /* Höhe des Buttons */
-    flex-shrink: 0; /* Verhindert, dass der Button schrumpft */
-    background-color: #F57072; /* Hintergrundfarbe, 'fill' wird durch 'background-color' ersetzt */
-    color: #FFF; /* Schriftfarbe (Weiß) */
-    font-family: 'Righteous'; /* Schriftart */
-    font-size: 45px; /* Schriftgröße */
-    font-style: normal; /* Schriftstil */
-    font-weight: 400; /* Schriftgewicht */
-    line-height: normal; /* Zeilenhöhe */
-    border: none; /* Entfernt den Standard-Rand von Buttons */
-    cursor: pointer; /* Zeigt einen Zeiger-Cursor an, um Klickbarkeit anzuzeigen */
-    text-align: center; /* Zentriert den Text im Button */
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); /* Schatten-Filter */
+    width: 382px;
+    height: 95.586px;
+    flex-shrink: 0;
+    background-color: #F57072;
+    color: #FFF;
+    font-family: 'Righteous';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 95.586px; /* Gleiche Höhe wie der Button für vertikale Zentrierung */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-decoration: none; /* Entfernt die Unterstreichung */
 }
+
 
 .Heading4 {
     padding-left: 50px;
@@ -421,7 +423,7 @@ main{
 }
 
  .Flatmatchers {
-    color: #98C6B9; /* Spezifische Farbe für 'Flatmachters' */
+    color: #F26F70; /* Spezifische Farbe für 'Flatmachters' */
 }
 
 .review {
