@@ -383,10 +383,51 @@ main{
     border: #000 1px solid;
 }
 
+.mehr-ueber-uns {
+    position: absolute;
+    left: 50%; /* Zentriert horizontal */
+    top: 795px; /* Zentriert vertikal */
+    transform: translate(-50%, calc(-50% + 169px));
+    width: 382px; /* Breite des Buttons */
+    height: 95.586px; /* Höhe des Buttons */
+    flex-shrink: 0; /* Verhindert, dass der Button schrumpft */
+    background-color: #F57072; /* Hintergrundfarbe, 'fill' wird durch 'background-color' ersetzt */
+    color: #FFF; /* Schriftfarbe (Weiß) */
+    font-family: 'Righteous'; /* Schriftart */
+    font-size: 45px; /* Schriftgröße */
+    font-style: normal; /* Schriftstil */
+    font-weight: 400; /* Schriftgewicht */
+    line-height: normal; /* Zeilenhöhe */
+    border: none; /* Entfernt den Standard-Rand von Buttons */
+    cursor: pointer; /* Zeigt einen Zeiger-Cursor an, um Klickbarkeit anzuzeigen */
+    text-align: center; /* Zentriert den Text im Button */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); /* Schatten-Filter */
+}
+
+.Heading4 {
+    padding-left: 50px;
+    padding-top: 400px;
+    
+}
+
+
+.title {
+    color: black;
+    font-size: 70px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+
+}
+
+ .Flatmatchers {
+    color: #98C6B9; /* Spezifische Farbe für 'Flatmachters' */
+}
+
 .review {
     width: 742px;
     flex-shrink: 0;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 100px;
