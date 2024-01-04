@@ -1,0 +1,54 @@
+body{
+    background: rgba(224, 220, 208, 0.60);
+}
+.impressum-container {
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.impressum-container h2 {
+    color:rgb(223, 211, 125);
+    font-size: 70px;
+    font-family: 'Righteous', serif;
+    font-weight: 400;
+}
+
+.impressum-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.impressum-left, .impressum-right {
+    width: 45%;
+}
+.impressum-left h3 {
+    font-family: 'Righteous', serif;
+}
+
+.impressum-right h3 {
+    font-family: 'Righteous', serif;
+}   
+
+.impressum-disclaimer {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.impressum-container h2, .impressum-container h3 {
+    color: #333;
+}
+
+.impressum-container p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.impressum-container a {
+    text-decoration: none;
+}
+
+.impressum-container a:hover {
+    text-decoration: underline;
+}
