@@ -27,7 +27,7 @@ main{
 .Bild1 {
     position: relative;
     max-height: 1024px; /* Maximale Höhe des Bildes */
-    max-width: 100%; /* Maximale Breite auf 100% des übergeordneten Elements setzen */
+    width: 100%; /* Maximale Breite auf 100% des übergeordneten Elements setzen */
     overflow: hidden; /* Schneidet überstehende Inhalte ab */
 }
 
@@ -249,7 +249,6 @@ main{
 
 .rechteck3 {
     position: relative;
-    width: 1445px;
     height: 1126px;
     flex-shrink: 0;
     background: #99C6B8;
@@ -331,7 +330,6 @@ main{
 
 .rechteck4 {
     position: relative;
-    width: 1445px; /* Stellen Sie sicher, dass dies breit genug ist */
     height: 1126px;
     flex-shrink: 0;
     background: rgba(224, 220, 208, 0.6);
@@ -342,7 +340,6 @@ main{
     position: absolute;
     left: 50px;
     top: 228px;
-
 }
 
 .Heading3 .Deine, .Heading3 .WG-Experten, .Heading3 .Seit-2023 {
@@ -357,6 +354,22 @@ main{
     color: #98C6B9; /* Spezifische Farbe für 'WG' */
 }
 
+.circle-container {
+    position: absolute;
+    top: 487px; /* Abstand von oben */
+    left: 181px; /* Abstand von links */
+    max-width: 100%; /* Breite nur für den ersten Kreis */
+    max-height: 100%; /* Höhe nur für den ersten Kreis */
+}
+
+.circle {
+    width: 238px;
+    height: 238px;
+    border-radius: 50%;
+    background-color: #E0DCD0;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 
 
