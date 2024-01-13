@@ -16,12 +16,17 @@ body{
     margin-right: 150px;
     margin-top: 50px;
     text-align: center;
+   
 }
 
 .person {
+    
     margin-bottom: 30px;
 }
-
+.person img {
+    width: 250px;
+    height: 250px;
+}
 .fliesstext {
     margin-right: 200px;
     margin-top: 0px;
