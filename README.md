@@ -38,3 +38,20 @@ HTML und CSS: Die Kerntechnologien, die für die Strukturierung und das Styling 
 Google Fonts: Für individuelle Typografie.
 
 Responsive Design-Prinzipien: Um sicherzustellen, dass die Website auf verschiedenen Geräten zugänglich ist.
+
+
+
+Erfolge
+Grundlayout erfolgreich umgesetzt: Als Anfänger haben wir ein funktionales Layout mit Header, Hauptinhalt und Footer erstellt.
+
+Styling mit CSS: Wir konnten unsere Webseite ansprechend gestalten, wobei die Anwendung von Farben, Schriftarten und Layouts gut funktionierte.
+
+Einsatz von Google Fonts: Die Integration von Google Fonts hat die Ästhetik unserer Seite verbessert.
+Herausforderungen
+
+Responsives Design: Die Anpassung an verschiedene Bildschirmgrößen war komplexer als erwartet.
+Benutzerfreundlichkeit: Die Navigation könnte intuitiver gestaltet werden.
+
+JavaScript-Einsatz: Noch nicht begonnen, was die Interaktivität unserer Seite begrenzt.
+Cross-Browser-Kompatibilität: Unterschiedliche Browserdarstellungen waren eine Herausforderung.
+
